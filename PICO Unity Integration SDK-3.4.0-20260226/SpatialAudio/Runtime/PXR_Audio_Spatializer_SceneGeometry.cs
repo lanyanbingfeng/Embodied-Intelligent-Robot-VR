@@ -411,7 +411,7 @@ public class PXR_Audio_Spatializer_SceneGeometry : MonoBehaviour
             }
 
             currentBakedStaticMeshAssetPath = "Assets/Resources/PxrAudioSpatializerBakedSceneMeshes/" + name + "_" +
-                                              GetInstanceID() + "_" +
+                                              GetEntityId() + "_" +
                                               System.DateTime.UtcNow.ToBinary() + ".yggmesh";
             serializedObject.FindProperty("currentBakedStaticMeshAssetPath").stringValue =
                 currentBakedStaticMeshAssetPath;

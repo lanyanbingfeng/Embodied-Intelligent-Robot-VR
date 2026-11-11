@@ -123,3 +123,6 @@ InitTestScene*.unity*
 # Unity 运行时截图与自动恢复场景
 /[Aa]ssets/Screenshots/
 /[Aa]ssets/_Recovery/
+
+# WorkBuddy 本地项目数据与记忆（不上传）
+/.workbuddy/
